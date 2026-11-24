@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BUSHIDO · Página promocional (prototipo)</title>
+<meta name="description" content="Prototipo visual de la página promocional. Contenido provisional.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#intro">Saltar al contenido</a>
+
+<header class="nav">
+  <a class="logo" href="#inicio">BUSHIDO</a><!-- TÍTULO PROVISIONAL -->
+  <button class="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+  <nav aria-label="Principal">
+    <ul id="menu">
+      <li><a href="#intro">Historia</a></li>
+      <li><a href="#juego">Juego</a></li>
+      <li><a href="#personajes">Personajes</a></li>
+      <li><a href="#controles">Controles</a></li>
+      <li><a href="#descargar">Descargar</a></li>
+      <li><a href="#galeria">Galería</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<!-- A · HERO -->
+<section id="inicio" class="hero">
+  <div class="leaves" aria-hidden="true"></div>
+  <div class="hero-copy">
+    <p class="eyebrow">Capítulo 1 · Texto provisional</p>
+    <h1>Bushido</h1>
+    <p class="tagline">Frase de presentación provisional: una línea breve que invite a entrar.</p>
+    <div class="cta">
+      <a class="btn primary" href="#descargar" data-placeholder>Jugar</a>
+      <a class="btn" href="#intro">Explorar</a>
+    </div>
+  </div>
+</section>
+
+<!-- B · INTRODUCCIÓN -->
+<section id="intro" class="paper">
+  <div class="wrap split">
+    <div class="reveal">
+      <p class="eyebrow">Introducción</p>
+      <h2>Premisa del juego</h2>
+      <p>Texto de ejemplo. Aquí irá una descripción breve de la premisa. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+      <p>Segundo párrafo provisional para ampliar el contexto cuando exista el contenido oficial.</p>
+      <ul class="stamps">
+        <li><b>00</b> Dato clave</li><li><b>00</b> Dato clave</li><li><b>00</b> Dato clave</li>
+      </ul>
+    </div>
+    <figure class="frame reveal"><img src="assets/images/shot-route.jpg" alt="Mapa de ruta del juego" loading="lazy"><figcaption>Imagen provisional</figcaption></figure>
+  </div>
+</section>
+
+<!-- C · CARACTERÍSTICAS -->
+<section id="juego" class="dark">
+  <div class="wrap">
+    <p class="eyebrow">Jugabilidad</p>
+    <h2>Características principales</h2>
+    <div class="cards">
+      <article class="card reveal"><img src="assets/images/shot-combat.jpg" alt="Captura de combate" loading="lazy"><span class="kanji" aria-hidden="true">剣</span><h3>Característica 01</h3><p>Descripción provisional de una mecánica principal.</p></article>
+      <article class="card reveal"><img src="assets/images/shot-map.jpg" alt="Captura del mapa" loading="lazy"><span class="kanji" aria-hidden="true">道</span><h3>Característica 02</h3><p>Descripción provisional de una mecánica principal.</p></article>
+      <article class="card reveal"><img src="assets/backgrounds/hero.jpg" alt="Captura del santuario" loading="lazy"><span class="kanji" aria-hidden="true">門</span><h3>Característica 03</h3><p>Descripción provisional de una mecánica principal.</p></article>
+      <article class="card reveal"><img src="assets/images/shot-lantern.jpg" alt="Captura de farol" loading="lazy"><span class="kanji" aria-hidden="true">灯</span><h3>Característica 04</h3><p>Descripción provisional de una mecánica principal.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- D · PERSONAJES (edita los data-* para cambiar el contenido) -->
+<section id="personajes" class="paper">
+  <div class="wrap">
+    <p class="eyebrow">Personajes</p>
+    <h2>Conoce al reparto</h2>
+    <div class="chars reveal">
+      <div class="char-tabs" role="tablist" aria-label="Personajes">
+        <button class="char-tab" role="tab" aria-selected="true" data-name="Personaje 01" data-role="Rol provisional" data-text="Descripción provisional del personaje. Sustituir por la biografía oficial." data-img="assets/characters/char-1.png">Personaje 01</button>
+        <button class="char-tab" role="tab" aria-selected="false" data-name="Personaje 02" data-role="Rol provisional" data-text="Descripción provisional del personaje. Sustituir por la biografía oficial." data-img="assets/characters/char-2.png">Personaje 02</button>
+        <button class="char-tab" role="tab" aria-selected="false" data-name="Personaje 03" data-role="Rol provisional" data-text="Descripción provisional del personaje. Sustituir por la biografía oficial." data-img="assets/characters/char-3.png">Personaje 03</button>
+        <button class="char-tab" role="tab" aria-selected="false" data-name="Personaje 04" data-role="Rol provisional" data-text="Descripción provisional del personaje. Sustituir por la biografía oficial." data-img="assets/characters/char-4.png">Personaje 04</button>
+      </div>
+      <div class="char-panel" role="tabpanel" aria-live="polite">
+        <div class="medal"><img id="char-img" src="assets/characters/char-1.png" alt=""></div>
+        <div><p class="eyebrow" id="char-role">Rol provisional</p><h3 id="char-name">Personaje 01</h3><p id="char-text">Descripción provisional del personaje. Sustituir por la biografía oficial.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- E · CONTROLES -->
+<section id="controles" class="dark">
+  <div class="wrap">
+    <p class="eyebrow">Controles</p>
+    <h2>Cómo se juega</h2>
+    <div class="controls">
+      <div class="reveal"><h3>Teclado</h3>
+        <p><span class="keys"><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></span> Acción provisional</p>
+        <p><span class="keys"><kbd class="wide">Espacio</kbd></span> Acción provisional</p>
+        <p><span class="keys"><kbd>Esc</kbd></span> Pausa</p></div>
+      <div class="reveal"><h3>Ratón</h3>
+        <p><span class="keys"><kbd class="wide">Clic izq.</kbd></span> Acción provisional</p>
+        <p><span class="keys"><kbd class="wide">Clic der.</kbd></span> Acción provisional</p></div>
+      <div class="reveal"><h3>Mando</h3>
+        <p><span class="keys"><kbd class="round">A</kbd><kbd class="round">B</kbd></span> Acción provisional</p>
+        <p><span class="keys"><kbd class="round">LB</kbd><kbd class="round">RB</kbd></span> Acción provisional</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- F · PLATAFORMAS -->
+<section id="descargar" class="paper">
+  <div class="wrap center reveal">
+    <p class="eyebrow">Plataformas</p>
+    <h2>Disponibilidad</h2>
+    <ul class="platforms"><li>Plataforma 01<small>Por confirmar</small></li><li>Plataforma 02<small>Por confirmar</small></li><li>Plataforma 03<small>Por confirmar</small></li></ul>
+    <a class="btn primary" href="#" data-placeholder>Descargar</a>
+    <p class="note">Enlace de descarga provisional. Espacio para información por plataforma.</p>
+  </div>
+</section>
+
+<!-- G · GALERÍA -->
+<section id="galeria" class="dark">
+  <div class="wrap">
+    <p class="eyebrow">Galería</p>
+    <h2>Capturas</h2>
+    <div class="gallery">
+      <button class="reveal big"><img src="assets/images/shot-title.jpg" alt="Pantalla de título" loading="lazy"></button>
+      <button class="reveal"><img src="assets/images/shot-map.jpg" alt="Mapa del capítulo 1" loading="lazy"></button>
+      <button class="reveal"><img src="assets/images/shot-combat.jpg" alt="Combate contra faroles" loading="lazy"></button>
+      <button class="reveal"><img src="assets/images/shot-lantern.jpg" alt="Farol de piedra" loading="lazy"></button>
+      <button class="reveal"><img src="assets/backgrounds/hero.jpg" alt="Camino de toriis" loading="lazy"></button>
+    </div>
+  </div>
+</section>
+</main>
+
+<dialog id="lightbox" aria-label="Vista ampliada">
+  <button class="lb-close" aria-label="Cerrar">✕</button>
+  <button class="lb-nav prev" aria-label="Anterior">‹</button>
+  <img alt="">
+  <button class="lb-nav next" aria-label="Siguiente">›</button>
+</dialog>
+
+<footer>
+  <div class="wrap foot">
+    <strong class="logo">BUSHIDO</strong>
+    <nav aria-label="Pie"><a href="#inicio">Inicio</a><a href="#juego">Juego</a><a href="#galeria">Galería</a><a href="#descargar">Descargar</a></nav>
+    <nav aria-label="Redes"><a href="#" data-placeholder>Red social 1</a><a href="#" data-placeholder>Red social 2</a><a href="#" data-placeholder>Red social 3</a></nav>
+    <p>© 0000 Nombre del estudio · Todos los derechos reservados (provisional)</p>
+  </div>
+</footer>
+<div class="toast" role="status"></div>
+<script src="js/script.js"></script>
+</body>
+</html>
