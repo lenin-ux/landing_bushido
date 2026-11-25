@@ -37,8 +37,8 @@ tabs.forEach((t, i) => {
   t.addEventListener('click', () => {
     tabs.forEach(o => o.setAttribute('aria-selected', o === t));
     $('#char-name').textContent = t.dataset.name;
-    $('#char-role').textContent = t.dataset.role;
-    $('#char-text').textContent = t.dataset.text;
+    $('#char-role').textContent = t.dataset.role; $('#char-role').hidden = !t.dataset.role;
+    $('#char-text').textContent = t.dataset.text; $('#char-text').hidden = !t.dataset.text;
     img.src = t.dataset.img; img.alt = t.dataset.name;
     img.classList.remove('swap'); void img.offsetWidth; img.classList.add('swap');
   });
